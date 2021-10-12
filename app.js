@@ -47,3 +47,58 @@ var mySwiper = new Swiper(".swiper-container", {
   autoplay: false,
   effect: "slide"
 });
+
+
+
+// TESTIMONIAL
+jQuery(document).ready(function ($) {
+	//create the slider
+	$(".cd-testimonials-wrapper").flexslider({
+		selector: ".cd-testimonials > li",
+		animation: "slide",
+		controlNav: true,
+		slideshow: false,
+		smoothHeight: true,
+		start: function () {
+			$(".cd-testimonials").children("li").css({
+				opacity: 1,
+				position: "relative"
+			});
+		}
+	});
+});
+
+
+// Gallery
+var $cell = $('.card');
+
+//open and close card when clicked on card
+$cell.find('.js-expander').click(function() {
+
+  var $thisCell = $(this).closest('.card');
+
+  if ($thisCell.hasClass('is-collapsed')) {
+    $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed').addClass('is-inactive');
+    $thisCell.removeClass('is-collapsed').addClass('is-expanded');
+    
+    if ($cell.not($thisCell).hasClass('is-inactive')) {
+      //do nothing
+    } else {
+      $cell.not($thisCell).addClass('is-inactive');
+    }
+
+  } else {
+    $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+    $cell.not($thisCell).removeClass('is-inactive');
+  }
+});
+
+//close card when click on cross
+$cell.find('.js-collapser').click(function() {
+
+  var $thisCell = $(this).closest('.card');
+
+  $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+  $cell.not($thisCell).removeClass('is-inactive');
+
+});
