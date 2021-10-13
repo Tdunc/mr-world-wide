@@ -15,27 +15,17 @@
 
 
 ///// Anchor Smooth Scroll /////
-//   $('.main-menu a, .learn-more-button a').click(function(e){
+  // $('.main-menu a, .learn-more-button a').click(function(e){
     
-//     e.preventDefault();
+  //   e.preventDefault();
         
-//     var target = $(this).attr('href');
+  //   var target = $(this).attr('href');
         
-//     $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
-//     return false;
-//   });
+  //   $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+  //   return false;
+  // });
 
-
-
-// by
-// abubakersaeed.netlify.com | @AbubakerSaeed96
-// ============================================
-
-// Inspiration:
-// Tilt.js: https://gijsroge.github.io/tilt.js/
-// Andy Merskin's parallax depth cards pen: https://codepen.io/andymerskin/full/XNMWvQ/
-
-// Thank You for Viewing
+// Swiper
 var mySwiper = new Swiper(".swiper-container", {
   direction: "horizontal",
   loop: true,
