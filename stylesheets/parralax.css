@@ -1,0 +1,40 @@
+.water {
+  max-width: 100%x;
+  height: 500px;
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1623092475365-cad86ed1a263?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80') no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+  
+  .fish {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) translateZ(50px);
+  -moz-transform: translate(-50%, -50%) translateZ(50px);
+  -ms-transform: translate(-50%, -50%) translateZ(50px);
+  -o-transform: translate(-50%, -50%) translateZ(50px);
+  transform: translate(-50%, -50%) translateZ(50px);
+  color: white;
+  overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .water {
+    height: 300px;
+    }
+    
+    .fish {
+    max-width: 60%;
+    }
+  
+  }

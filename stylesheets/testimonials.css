@@ -1,5 +1,5 @@
 .testimonial-container {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #F4F1DE;
 	width: 100%;
 }
 
@@ -8,7 +8,7 @@
 	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #F4F1DE;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding: 100px 0px 40px;
@@ -200,12 +200,15 @@ ul.cd-author-info li span {
 
 .flex-direction-nav .flex-prev {
 	left: 0px;
+	background-color: #F4F1DE
 }
 
 .flex-direction-nav .flex-next {
 	right: 0px;
 	text-align: right;
+	background-color: #F4F1DE
 }
+
 
 .flexslider:hover .flex-direction-nav .flex-prev {
 	opacity: 1;

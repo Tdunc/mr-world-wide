@@ -1,7 +1,7 @@
 .wrapper {
   margin: 5em auto;
   max-width: 1000px;
-  background-color: #fff;
+  background-color: #F4F1DE;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -230,7 +230,7 @@
   color: #ffffff;
   font-size: 1.5em;
   height: 50vh;
-  background-color:rgba(148, 148, 144, 0.445)
+  background-color:#e4e4e4;
 }
 .card__expander .fa {
   font-size: 0.75em;
