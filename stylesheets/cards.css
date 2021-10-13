@@ -321,14 +321,10 @@
   .card__expander {
     width: calc(200% + 30px);
   }
-
-  
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .mobile-open{
+}
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card-open-1 {
       background-size: cover;
     }
   }
-}
