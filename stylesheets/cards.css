@@ -339,8 +339,7 @@
 
   /* TGEST */
   .popout-container{
-    width: 100%;
-    /* position: relative; */
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
@@ -438,7 +437,7 @@
     justify-content: center;
     grid-template-columns: 1fr 1fr;
   }
-
+}
 @media only screen and (max-width: 768px) {
   .popout-container{
     display: flex;
