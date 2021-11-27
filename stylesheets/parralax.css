@@ -2,7 +2,7 @@
   max-width: 70%;
   height: 500px;
   position: relative;
-  background: url('../images/img-test.PNG') no-repeat;
+  background: url('../images/bonus.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   -webkit-transform-style: preserve-3d;
@@ -39,8 +39,9 @@
     }
 
     .parallax{
-      height: 125px;
-      width: 90%;
+      height: 130px;
+      width: 350px;
+      background-size: cover;
     }
   
   }
