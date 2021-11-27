@@ -3,9 +3,10 @@
   height: 30rem;
 
   text-align: center;
- 
- font-family:Sofia;
-
+ background-image: url("https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
 }
 
 .space img{
@@ -22,6 +23,7 @@
 
 .bio-text{
   font-size: 24px;
+
 }
 
 /* footer start */
@@ -161,9 +163,17 @@ font-size: 16px;
   grid-template-columns: 1fr;
 }
 
-  .bio-text{
+  .bio-text {
     font-size: 20px;
-    position: relative;
+  }
+
+  .space{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
   }
 
 }
