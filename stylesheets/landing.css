@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif !important;
+    scroll-behavior: smooth;
     
 }
 
@@ -641,14 +642,25 @@ a {
         color: white;
         background-color: white;
     }
+    .slide-control{
+        bottom: 365px;
+    }
+    .fashion{
+        padding: 0px;
+        font-size: 18px;
+    }
+    button{
+        display: none;
+    }
+    
 
     .info {
         align-items: flex-start;
     }
 
     .info h1 {
-        font-size: 63px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 40px;
         text-align: left;
     }
 

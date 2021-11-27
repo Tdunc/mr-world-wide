@@ -37,5 +37,10 @@
     .fish {
     max-width: 60%;
     }
+
+    .parallax{
+      height: 125px;
+      width: 90%;
+    }
   
   }

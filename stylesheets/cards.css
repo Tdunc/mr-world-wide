@@ -327,6 +327,10 @@
     .card-open-1 {
       background-size: cover;
     }
+
+    .wrapper{
+      max-width: 100%;
+    }
   }
 
 
@@ -381,7 +385,7 @@
 }
 
 .popout-container .popout .face.face1 .content img{
-    max-width: 100px;
+    width: 100%;
 }
 
 .popout-container .popout .face.face1 .content h3{
@@ -427,7 +431,21 @@
     background: #333;
     color: #fff;
 }
+@media only screen and (max-width: 1200px) {
+  .popout-container{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
 
+@media only screen and (max-width: 768px) {
+  .popout-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 @media only screen and (max-width: 650px) {
   .popout-container{
     display: flex;
