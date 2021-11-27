@@ -98,7 +98,7 @@ jQuery(document).ready(function($) {
           cart = $('.bxs-phone-call');
           navScroller = $('.nav');
   
-      if (scrollPos > 700) {
+      if (scrollPos > 100) {
         logo.addClass('alt-logo');
         cart.addClass('alt-logo');
         navScroller.addClass('nav-scroll-change');

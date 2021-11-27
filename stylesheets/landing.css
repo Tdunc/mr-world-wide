@@ -251,6 +251,11 @@ html {
     color: #ffb300 !important;
     transition: 1s;
 }
+.bxs-phone-call:hover{
+    color: #ffb300 !important;
+    transition: 0.5s;
+    transform:scale(1.7);
+}
 
 .menu {
     height: 30px;
