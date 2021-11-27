@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
 #section-1 {
   height: 38em;
   color: #EAEAEA;
@@ -35,17 +37,18 @@
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
   height: 100%;
   padding-top: 6em;
-  background-image: linear-gradient(rgba(36, 37, 37, 0.9), rgba(234, 234, 234, 0.3));
+  background-image: linear-gradient(rgba(36, 37, 37, 0.3), rgba(234, 234, 234, 0.1));
   box-sizing: border-box;
 }
 /* ************** */
 
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
   padding-bottom: 0.3em;
-  font-family: 'Cormorant', Arial, Helvetica, sans-serif;
+  font-family: 'Lora', serif !important;
   font-weight: 400;
   font-size: 2.5em;
   text-transform: none;
+  color: rgb(255, 255, 255);
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
   font-size: 6em;
@@ -188,7 +191,7 @@
     font-size: 22px;
   }
   .main-header .header-wrapper {
-    width: 57%;
+    width: 80%;
   }
   #section-1 {
     height: 44em;
@@ -316,6 +319,7 @@
     width: 100%;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
     
   }
   .main-header .header-wrapper .main-logo {
@@ -323,7 +327,7 @@
     font-size: 24px;
   }
   .main-header .header-wrapper .main-menu li {
-    padding: 0.2em 0.3em;
+    /* padding: 0.2em 0.3em; */
   }
   .main-header .header-wrapper .main-menu li:last-child,
   .main-header .header-wrapper .main-menu li:nth-child(6) {

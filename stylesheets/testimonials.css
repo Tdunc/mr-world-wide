@@ -1,5 +1,5 @@
 .testimonial-container {
-	background-color: #F4F1DE;
+	background-color: #f4f4f4;
 	width: 100%;
 }
 
@@ -8,7 +8,7 @@
 	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
-	background-color: #F4F1DE;
+	background-color: #f4f4f4;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding: 100px 0px 40px;
@@ -160,7 +160,9 @@ ul.cd-author-info li span {
 
 .flex-direction-nav a {
 	text-decoration: none;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 50px;
 	height: 100%;
 	margin: 0px 0 0;
@@ -171,7 +173,7 @@ ul.cd-author-info li span {
 	opacity: 1;
 	background: rgba(245, 245, 245, 1);
 	cursor: pointer;
-	color: rgba(255, 255, 255, .5);
+	color: #f4f4f4;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -182,7 +184,7 @@ ul.cd-author-info li span {
 
 .flex-direction-nav a:before {
 	font-size: 40px;
-	content: url('https://dl.dropboxusercontent.com/u/97609687/codepen/chevronleft.svg');
+	content: url('../images/chevron-left.svg');
 	position: absolute;
 	display: block;
 	top: 50%;
@@ -191,22 +193,28 @@ ul.cd-author-info li span {
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	background-image: url("../images/chevron-left.svg");
+	background-repeat: no-repeat;
+	padding: 14px 20px 14px 10px;
+	
 }
 
 .flex-direction-nav a.flex-next:before {
-	content: url('https://dl.dropboxusercontent.com/u/97609687/codepen/chevronright.svg');
+	content: url('../images/chevron-right.svg');
 	padding: 14px 20px 14px 10px;
+	background-image: url("../images/chevron-right.svg");
+	background-repeat: no-repeat;
 }
 
 .flex-direction-nav .flex-prev {
 	left: 0px;
-	background-color: #F4F1DE
+	background-color: #f4f4f4
 }
 
 .flex-direction-nav .flex-next {
 	right: 0px;
 	text-align: right;
-	background-color: #F4F1DE
+	background-color: #f4f4f4
 }
 
 

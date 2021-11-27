@@ -1,8 +1,8 @@
 .parallax {
-  max-width: 80%;
+  max-width: 70%;
   height: 500px;
   position: relative;
-  background: url('https://images.unsplash.com/photo-1623092475365-cad86ed1a263?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80') no-repeat;
+  background: url('../images/img-test.PNG') no-repeat;
   background-size: cover;
   background-position: center;
   -webkit-transform-style: preserve-3d;
@@ -10,6 +10,7 @@
   border-radius: 30px;
   margin: 0 auto;
   overflow: hidden;
+  margin-top: 30px
   }
   
   .para-text {

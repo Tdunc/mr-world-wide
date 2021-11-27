@@ -16,13 +16,14 @@
   padding-top: 1em;
 }
 .main-header .header-wrapper .main-logo {
+  margin-top: 25px;
   float: left;
-  font-weight: 700;
   font-size: 1.58em;
 }
 .main-header .header-wrapper .main-menu {
   float: right;
   text-align: center;
+  padding-left: 0px !important;
 }
 .main-header .header-wrapper .main-menu li {
   display: inline-block;
@@ -49,3 +50,4 @@
 .main-header .header-wrapper .main-menu li:last-child a:hover {
   border: none;
 }
+

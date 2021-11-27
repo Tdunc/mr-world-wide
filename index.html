@@ -4,148 +4,187 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./stylesheets/main.css"> -->
   <link rel="stylesheet" type="text/css" href="./stylesheets/navbar.css">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/landing-page.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./stylesheets/landing-page.css"> -->
   <link rel="stylesheet" type="text/css" href="./stylesheets/cards.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/img-swiper.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/testimonials.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/footer.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/parralax.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/landing.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <title>George</title>
 </head>
 <body>
-  <!-- NAVBAR -->
-    <header class="main-header">
-      <div class="header-wrapper">
-        <div class="main-logo">New Face Remodel</div>
-        <nav>
-          <ul class="main-menu">
-            <li><a href="#section-2">About</a></li>
-            <li><a href="#section-5">Services</a></li>
-            <li><a href="#section-7">Work</a></li>
-            <li><a href="#main-footer">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  <!-- END NAV -->
-
-  <!-- LANDING PAGE -->
-    <section id="section-1">
-      <div class="content-slider">
-        <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
-        <input type="radio" id="banner2" class="sec-1-input" name="banner">
-        <input type="radio" id="banner3" class="sec-1-input" name="banner">
-        <input type="radio" id="banner4" class="sec-1-input" name="banner">
-        <div class="slider">
-          <div id="top-banner-1" class="banner">
-            <div class="banner-inner-wrapper">
-              <h2>PLACEHOLDER</h2>
-              <h2 id="main-heading-text">PLACEHOLDER<br>PLACEHOLDER</h1>
-              <div class="line"></div>
-              <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
-            </div>
-          </div>
-          <div id="top-banner-2" class="banner">
-            <div class="banner-inner-wrapper">
-              <h2>What We've done</h2>
-              <h2 id="main-heading-text">placeholder<br>placeholder</h1>
-              <div class="line"></div>
-              <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
-            </div>
-          </div>
-          <div id="top-banner-3" class="banner">
-            <div class="banner-inner-wrapper">
-              <h2>Here We Are</h2>
-              <h2 id="main-heading-text">We Are<br>mr. worldwide</h1>
-              <div class="line"></div>
-              <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
-            </div>
-          </div>
-          <div id="top-banner-4" class="banner">
-            <div class="banner-inner-wrapper">
-              <h2>contact us</h2>
-              <h2 id="main-heading-text">placeholder<br>palceholder</h1>
-              <div class="line"></div>
-              <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
-            </div>
-          </div>
+  <div class="contained" style="background-image: url(https://images.pexels.com/photos/804392/pexels-photo-804392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+    <div class="nav">
+        <div class="menu" onclick="openNav()">
+            <div class="hamburger"></div>
         </div>
-        <nav>
-          <div class="controls">
-            <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
-            <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
-            <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
-            <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
-          </div>
-        </nav>
-      </div>
-    </section>
-  <!-- END LANDING PAGE -->
-
-<!-- Page Wrap -->
-<div class="page-wrap">
-
-  <div id="home-slider">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide swiper-slide-one">
-          <div class="swiper-image" data-swiper-parallax-y="-20%">
-            <div class="swiper-image-inner swiper-image-left swiper-image-one">
-              <h1>An <span class="emphasis">Example</span>. <br><span>of wording.</span></h1>
-              <p>Placeholder</p>
-            </div>
-          </div>
-          <div class="swiper-image" data-swiper-parallax-y="35%">
-            <div class="swiper-image-inner swiper-image-right swiper-image-two">
-              <p class="paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, saepe ullam beatae rerum obcaecati placeat enim dicta quas. Asperiores possimus, consectetur corporis facere nesciunt ipsum consequatur non architecto aliquid earum?
-              </p>
-            </div>
-          </div>
+        <div class="logo">
+            TUAT.TA
         </div>
-        <div class="swiper-slide swiper-slide-two">
-          <div class="swiper-image" data-swiper-parallax-y="-20%">
-            <div class="swiper-image-inner swiper-image-left swiper-image-three">
-              <h1>An <span class="emphasis">Example</span>. <br><span>Of wording.</span></h1>
-              <p>placeholder</p>
-            </div>
-          </div>
-          <div class="swiper-image" data-swiper-parallax-y="35%">
-            <div class="swiper-image-inner swiper-image-right swiper-image-four">
-              <p class="paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste, optio culpa alias molestiae quasi facere consequatur pariatur corrupti labore autem neque inventore deleniti id magni. Libero commodi totam a?
-              </p>
-            </div>
-          </div>
+        <div class="cart">
+            <i class='bx bx-cart-alt'></i>
         </div>
-        <div class="swiper-slide swiper-slide-three">
-          <div class="swiper-image" data-swiper-parallax-y="-20%">
-            <div class="swiper-image-inner swiper-image-left swiper-image-five">
-              <h1>An <span class="emphasis">Example</span>. <br><span>Of wording.</span></h1>
-              <p>Chapter III, page XI</p>
-            </div>
-          </div>
-          <div class="swiper-image" data-swiper-parallax-y="35%">
-            <div class="swiper-image-inner swiper-image-right swiper-image-six">
-              <p class="paragraph">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laudantium debitis sunt, quibusdam maiores, quis iure natus eligendi perspiciatis doloremque laborum animi sequi fugit aspernatur enim beatae, vero quasi. A.
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="swiper-pagination"></div>
     </div>
-  </div>
-
+    <div id="myNav" class="nav-overlay">
+        <div class="nav-overlay-content">
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    
+    <div class="fashion">
+        Mr. World Wide
+    </div>
+    
+    <div class="slide-control">
+        <i class='bx bxs-right-arrow'></i>
+    </div>
+    <div class="overlay"></div>
+    <div class="col-5" style="z-index: 97;">
+        <div class="info">
+            <!-- info 1 -->
+            <div class="product-info">
+                <h1>
+                    CREA<span style="color: #e29f01;">TIVE</span>
+                </h1>
+                <h1>
+                    <span style="color: #e29f01;">DE</span>SIGN
+                </h1>
+                <span>
+                    Collection 2020
+                </span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                    veritatis minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur
+                    cumque tempora nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Autem
+                    inventore
+                </p>
+                <button>
+                    Contact Us
+                </button>
+            </div>
+            <!-- end info 1 -->
+            <!-- info 2 -->
+            <div class="product-info">
+                <h1>
+                    <span style="color: #e29f01;">passion</span>nate
+                </h1>
+                <h1>
+                    pur<span style="color: #e29f01;">suit</span>
+                </h1>
+                <span>
+                    Placeholder
+                </span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                    veritatis
+                    minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                    nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    inventore
+                    explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                    repudiandae.
+                    Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                </p>
+                <button>
+                    Contact Us
+                </button>
+            </div>
+            <!-- end info 2 -->
+            <!-- info 3 -->
+            <div class="product-info">
+                <h1>
+                    <span style="color: #e29f01;">BE</span>
+                </h1>
+                <h1>
+                    <span style="color: #e29f01;">You</span>rself
+                </h1>
+                <span>
+                    Placeholder
+                </span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                    veritatis
+                    minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                    nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    inventore
+                    explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                    repudiandae.
+                    Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                </p>
+                <button>
+                    Contact Us
+                </button>
+            </div>
+            <!-- end info 3 -->
+            <!-- info 4 -->
+            <div class="product-info">
+                <h1>
+                    <span style="color: #e29f01;">GO</span>LD
+                </h1>
+                <h1>
+                    STY<span style="color: #e29f01;">LE</span>
+                </h1>
+                <span>
+                    Placeholder
+                </span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                    veritatis
+                    minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                    nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    inventore
+                    explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                    repudiandae.
+                    Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                </p>
+                <button>
+                    Contact Us
+                </button>
+            </div>
+            <!-- end info 4 -->
+        </div>
+    </div>
+    <div class="col-7">
+        <div class="slider">
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80);"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80)">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1562582664-8a8803c031ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80)"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1586864387789-628af9feed72?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder"
+                    style="background-image: url(https://images.unsplash.com/photo-1623955277601-2aa7bb3fb240?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)"></div>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- End Page Wrap -->
-
+<!-- End Landing Page -->
 <!-- Begin Testimonials -->
-  <div class="testimonial-container">
+<div class="testimonial-container">
     <div class="dk-container">
       <div class="cd-testimonials-wrapper cd-container">
         <h2>Testimonials</h2>
@@ -191,179 +230,198 @@
     </div>
   </div>
 <!-- end-testimonials -->
-
 <!-- REFFERAL BANNER -->
 <div class="parallax" data-tilt data-tilt-max="20" data-tilt-speed="100" data-tilt-perspective="1000">
-  <h2 class="para-text">$50 referral bonus<br>for any job over $400</h2>
-
-</div>
-<!-- END REFFERAL BANNER  -->
-
-<!-- Begin Before/after pictures -->
-  <div class="wrapper">
-
-    <div class="header">
-      <h2 class="header__title">EXAMPLES OF WORK</h1>
-      <h2 class="header__subtitle">CLick To Transformation</h2>
-    </div>
-
-    <div class="cards">
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-1">
-        </div>
-        <div class="card__expander card-open-1 mobile-open">
-          
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-2">
-        </div>
-        <div class="card__expander card-open-2 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-3">
-        </div>
-        <div class="card__expander card-open-3 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-4">
-        </div>
-        <div class="card__expander card-open-4 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-5">
-        </div>
-        <div class="card__expander card-open-5 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-6">
-        </div>
-        <div class="card__expander card-open-6 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-7">
-        </div>
-        <div class="card__expander card-open-7 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-8">
-        </div>
-        <div class="card__expander card-open-8 mobile-open">
-        </div>
-      </div>
-
-      <div class=" card [ is-collapsed ] ">
-        <div class="card__inner [ js-expander ] card-closed-9">
-        </div>
-        <div class="card__expander card-open-9 mobile-open">
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-<!-- End Before/After Pictures -->
-
-
-<!-- BIO IMG -->
-<div class="space">
-
-  <img src="https://mpng.subpng.com/20180703/ya/kisspng-computer-icons-user-avatar-user-5b3bafe2381423.1933594815306383062297.jpg" alt="George">
+    <!-- <h2 class="para-text">$50 referral bonus<br>for any job over $400</h2> -->
   
-  <h2>Mr. world wide</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem ullam voluptatum dignissimos, in totam sunt quis facere fuga voluptate necessitatibus, nihil blanditiis. Impedit laboriosam suscipit animi? Perspiciatis, quod aperiam!</p>
-
-</div>			
-<!-- END BIO IMG -->
-
-<!-- FOOTER -->
-<footer>
-
-       <!-- Social media icons line Start -->
-
-        <div class="sm-handle">
-
-                <a href="#" class="sm-button">
-
-                        <i class="fab fa-instagram">	</i>
-
-                </a>
-
-                <a href="#" class="sm-button">
-
-                        <i class="fab fa-linkedin">	</i>
-
-                </a>
-
-                <a href="#" class="sm-button">
-
-                        <i class="fab fa-facebook-f">	</i>
-
-                </a>
-
-                <a href="#" class="sm-button">
-
-                        <i class="fab fa-twitter">	</i>
-
-                </a>
-
-                
-
+  </div>
+  <!-- END REFFERAL BANNER  -->
+  
+  <!-- Begin Before/after pictures -->
+    <div class="wrapper" id="work">
+  
+      <div class="header">
+        <h2 class="header__title">WHAT WE CAN DO</h1>
+        <h2 class="header__subtitle">Click Here to Transform</h2>
+      </div>
+  
+      <div class="cards">
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-1">
+          </div>
+          <div class="card__expander card-open-1 mobile-open">
+            
+          </div>
         </div>
-
-            <!-- Social media icons line Start -->
-
-        <div class="footer-links">
-
-          <div class="menu">
-
-            <h4 class="menu-title">LINKS</h4>							
-
-            <a href="#" class="menu-links">Services</a>
-
-            <a href="#" class="menu-links">Work</a>
-
-            <a href="#" class="menu-links">888-888-8888</a>
-
-            <a href="#" class="menu-links">email@email.com</a>
-
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-2">
           </div>
-
-          <div class="menu">
-
-            <h4 class="menu-title">Other Pages</h4>
-
-            <a href="#" class="other-links">Link</a>
-
-            <a href="#" class="other-links">Link</a>
-
-            <a href="#" class="other-links">Link</a>
-
-            <a href="#" class="other-links">Link</a>
-
+          <div class="card__expander card-open-2 mobile-open">
           </div>
-
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-3">
+          </div>
+          <div class="card__expander card-open-3 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-4">
+          </div>
+          <div class="card__expander card-open-4 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-5">
+          </div>
+          <div class="card__expander card-open-5 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-6">
+          </div>
+          <div class="card__expander card-open-6 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-7">
+          </div>
+          <div class="card__expander card-open-7 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-8">
+          </div>
+          <div class="card__expander card-open-8 mobile-open">
+          </div>
+        </div>
+  
+        <div class=" card [ is-collapsed ] ">
+          <div class="card__inner [ js-expander ] card-closed-9">
+          </div>
+          <div class="card__expander card-open-9 mobile-open">
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
+  <!-- End Before/After Pictures -->
+  
+  
+  <!-- BIO IMG -->
+  <div class="space" id="section-about">
+  
+    <img src="https://mpng.subpng.com/20180703/ya/kisspng-computer-icons-user-avatar-user-5b3bafe2381423.1933594815306383062297.jpg" alt="George">
+    
+    <h2>Mr. world wide</h2>
+    <p>From time to time you may need someone honest and reliable to work for you.<br>I offer a very wide variety of services that may suit your needs.<br>Here is a short list to give you an idea:<br>Flooring, painting, drywall, bathroom, kitchen remodels, closet, pantry, garage organizers, fixture replacement and upgrades, mold removel, and much more!</p>
+  
+  </div>			
+  <!-- END BIO IMG -->
+  <!-- BEGIN CONTACT FORM -->
+  <section id="contact">
+    <div class="contact-container container">
+      <div class="contact-img">
+        <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+      </div>
+  
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="E-Mail" />
+        <textarea
+          cols="30"
+          rows="6"
+          placeholder="Type Your Message"
+        ></textarea>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT -->
+  <!-- FOOTER -->
+  <footer>
+  
+    <!-- Social media icons line Start -->
+  
+     <div class="sm-handle">
+  
+             <a href="#" class="sm-button">
+  
+                     <i class="fab fa-instagram">	</i>
+  
+             </a>
+  
+             <a href="#" class="sm-button">
+  
+                     <i class="fab fa-linkedin">	</i>
+  
+             </a>
+  
+             <a href="#" class="sm-button">
+  
+                     <i class="fab fa-facebook-f">	</i>
+  
+             </a>
+  
+             <a href="#" class="sm-button">
+  
+                     <i class="fab fa-twitter">	</i>
+  
+             </a>
+  
+             
+  
+     </div>
+  
+         <!-- Social media icons line Start -->
+  
+     <div class="footer-links">
+  
+       <div class="footie-menu">
+  
+         <h4 class="menu-title">LINKS</h4>							
+  
+         <a href="#" class="menu-links">Services</a>
+  
+         <a href="#" class="menu-links">Work</a>
+  
+         <a href="#" class="menu-links">888-888-8888</a>
+  
+         <a href="#" class="menu-links">email@email.com</a>
+  
        </div>
-
-       <!-- copyright area -->
-
-          <p class="copyright">&copy Copyright 2021 | <a href="#">New Face Remodel</a></p>
-
-</footer>
+  
+       <div class="footie-menu">
+  
+         <h4 class="menu-title">Other Pages</h4>
+  
+         <a href="#" class="other-links">Link</a>
+  
+         <a href="#" class="other-links">Link</a>
+  
+         <a href="#" class="other-links">Link</a>
+  
+         <a href="#" class="other-links">Link</a>
+  
+       </div>
+  
+    </div>
+  
+    <!-- copyright area -->
+  
+       <p class="copyright">&copy Copyright 2021 | <a href="#">New Face Remodel</a></p>
+  
+  </footer>
 <!-- footer main area end -->
 
 
@@ -381,6 +439,7 @@
   <script src="./js/img-swiper.js"></script>
   <script src="./js/testimonials.js"></script>
   <script src="./js/cards.js"></script>
-
+  <script src="./js/test.js"></script>
+  
 </body>
 </html>

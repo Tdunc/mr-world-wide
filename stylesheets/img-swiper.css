@@ -11,7 +11,11 @@ General Styles
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #F2CC8F 50%, #81B29A 50%);
+  /* background: linear-gradient(to right bottom, #f7edde 50%, #1b583b9c 50%); */
+  background-image: url("https://www.spryarch.com/wp-content/uploads/2018/09/Header-Background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   
 }
 
@@ -138,7 +142,7 @@ Home Slider
     align-self: center;
   }
   h1 span:not(.emphasis) {
-    font-size: 2.1rem;
+    font-size: 24px;
   }
   p.paragraph {
     max-width: 94%;
@@ -211,7 +215,7 @@ Home Slider
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
   overflow: hidden;
   display: flex;
   
