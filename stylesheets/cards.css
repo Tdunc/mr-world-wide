@@ -9,13 +9,45 @@
   padding: 30px 30px 0;
   text-align: center;
 }
+.services-header {
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+  background-color: #333
+}
 .header__title {
   margin: 0;
   text-transform: uppercase;
-  font-size: 2.5em;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 700;
   line-height: 1.1;
-  color: black;
+  color: rgb(0, 0, 0);
+ 
+}
+
+.service__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: rgb(255, 255, 255);
+ 
+}
+
+
+.glow{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #333, 0 0 60px #333, 0 0 70px #333;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e29f01, 0 0 40px #e29f01, 0 0 50px #e29f01, 0 0 60px #e29f01, 0 0 70px #e29f01, 0 0 80px #e29f01;
+  }
 }
 .header__subtitle {
   margin: 0;
@@ -331,6 +363,9 @@
     .wrapper{
       max-width: 100%;
     }
+    .header__title{
+      font-size: 2.5em;
+    }
   }
 
 
@@ -370,7 +405,7 @@
 }
 
 .popout-container .popout:hover .face.face1{
-    background: #ff0057;
+    background: #e29f01;
     transform: translateY(0);
 }
 

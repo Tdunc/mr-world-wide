@@ -90,3 +90,22 @@ openNav = () => {
 // setInterval(() => {
 //     scrollSlide()
 // }, 2200);
+
+jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+      var scrollPos = $(window).scrollTop(),
+          logo = $('.logo');
+          cart = $('.bxs-phone-call');
+          navScroller = $('.nav');
+  
+      if (scrollPos > 700) {
+        logo.addClass('alt-logo');
+        cart.addClass('alt-logo');
+        navScroller.addClass('nav-scroll-change');
+      } else {
+        logo.removeClass('alt-logo');
+        cart.removeClass('alt-logo');
+        navScroller.removeClass('nav-scroll-change');
+      }
+    });
+  });
