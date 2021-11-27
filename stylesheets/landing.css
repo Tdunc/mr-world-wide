@@ -400,10 +400,11 @@ a {
 .hamburger::before,
 .hamburger::after {
     width: 30px;
-    height: 3px;
+    height: 5px;
     border-radius: .5rem;
-    background-color: white;
+    /* background-color: #e29f01; */
     transition: .4s;
+    background-color: black;
 }
 
 .hamburger::before {
@@ -628,6 +629,17 @@ a {
 
     .nav {
         top: 0;
+        padding: 20px 10px 0px 10px;
+        background-color: rgba(0, 0, 0, 0.226);
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .hamburger, .hamburger::before, .hamburger::after{
+        color: white;
+        background-color: white;
     }
 
     .info {

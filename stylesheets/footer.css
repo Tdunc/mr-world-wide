@@ -20,6 +20,10 @@
 
 }
 
+.bio-text{
+  font-size: 24px;
+}
+
 /* footer start */
 
 footer{
@@ -63,6 +67,7 @@ margin: 0px 10px 0px;
   justify-content: center;
 
   cursor: pointer;
+  color: white;
 
 }
 
